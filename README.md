@@ -4,4 +4,7 @@ This is a personal web application currently in development for a competition li
 
 ## Features
 
-*It has a login and logout system with authentication.
+-   Login and logout system with authentication.
+-   CRUD system
+-   Admin Dashboard
+-   Tabulation for scoring.
