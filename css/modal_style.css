@@ -1,0 +1,68 @@
+
+	/*body { font-size: 62.5%; }*/
+	/*body { font-size: 14px; font-size: 1.4rem; } /* =14px */
+	/*h1   { font-size: 24px; font-size: 2.4rem; } /* =24px */
+	
+	body{
+		width: 100vw;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		font-size: 16px;
+		
+	
+	}
+
+	.container.my_container{
+		font-size: 16px;
+		top: 30%;
+		left: 15%;
+		margin-top: 300px;
+		text-align: center;
+		transfrom: translate(-50%, -50%);	
+
+	}
+
+	@media all and (min-width: 960px) {
+    .container.my_container h1{
+        font-size: 40px;
+	    }
+	}
+	 
+	@media all and (max-width: 959px) and (min-width: 600px) {
+	    .container.my_container h1{
+	        font-size: 32px;
+	    }
+	    
+	    #login{
+			font-size: 15px;
+	    }
+	}
+	 
+	@media all and (max-width: 599px) and (min-width: 320px) {
+	    .container.my_container h1{
+	        font-size: 24px;
+	    }
+	    #login{
+			font-size: 10px;
+	    }
+	    #modal_content,#username,#password{
+	    	font-size: 13px;
+	    }
+	    #myinput{
+	    	margin: 0 50px;
+	    }
+
+	    #modal_title, #loginbtn{
+	    	font-size: 16px;
+	    }
+	 
+		}
+		
+		
+		.btn-change:hover{
+			-webkit-transform: scale(1.1);
+			background: #3498db;
+		}
+
